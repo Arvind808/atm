@@ -5,20 +5,33 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## Application dependencies
 
-* System dependencies
+ * Ruby version 3.0.2
 
-* Configuration
+    Use the package manager [rvm](https://rvm.io/rvm/install) to install rvm.
 
-* Database creation
+  * Rails 6.1.4
 
-* Database initialization
+## Installation
 
-* How to run the test suite
+```bash
+    bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## How to run the application
 
-* Deployment instructions
+```bash
+    rails s -p 3000
+```
+## Request to API
+
+ - open the brower and go  localhost:3000/amount_conversion?input_amount=11
+
+## How to run the test suite
+
+```bash
+    rails test
+```
 
 * ...
